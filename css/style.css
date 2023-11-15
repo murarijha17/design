@@ -1,0 +1,242 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:#f8f9fa;
+}
+
+nav{
+background-color: white;
+}
+.nav-link{
+color: black;
+font-size: 1rem;
+font-weight: 700;
+cursor: pointer;
+text-decoration: none;
+}
+.nav-link:hover{
+background-color: orange;
+}
+.navbar-brand{
+font-size: 1.25rem;
+font-weight: 800;
+color: black;
+cursor: pointer;
+text-decoration: none;
+}
+.main h3{
+font-size: 4.4rem;
+font-weight: 700;
+}
+.main h6{
+font-size: 1.4rem;
+text-transform: uppercase;
+line-height: 1;
+border-bottom: 3px solid rgb(233,20,109);
+width: 85%;
+}
+.main .btn1{
+height: 45px;
+width:140px;
+background-color: rgb(233,20,109);
+color:white;
+outline:none;
+border: none;
+font-weight: bold;
+border-radius: 5px;
+}
+.main .btn2{
+height: 45px;
+width:140px;
+background-color: transparent;
+color: rgb(233,20,109);
+outline:none;
+border: 1px solid rgb(233,20,109);
+font-weight: bold;
+border-radius: 5px;
+}
+.main .btn1:hover{
+bacground-color: rgb(202,18,95);
+transittion: 0.5s;
+}
+.main .btn2:hover{
+background-color: rgb(202,20,109);
+transittion: 0.5s;
+color: white;
+}
+#skills {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+/*===================================*/
+    }
+
+    #skills h1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+font-size: 2.5rem;
+    }
+
+#s1:hover{
+background-color: #007bff;
+}
+#skills:hover h1 span{
+background-color: blue;
+color: white;
+}
+.border-5 {
+    border-width: 5px !important;
+}
+
+.shadow-custom {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Skill List Styles */
+.border-5 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.border-5 li {
+    padding: 5px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Hover Effect */
+.border-5:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+/*====================================================*/
+#experiece {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+    }
+
+    #experiece h1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+#experience:hover h1 span{
+background-color: blue;
+color: white;
+}
+#portfolio {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+    }
+
+    #portfolio h1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+#portfolio:hover h1 span{
+background-color: blue;
+color: white;
+}
+#education {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+    }
+
+    #education h1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+#education:hover h1 span{
+background-color: blue;
+color: white;
+}
+
+.footer-top{
+background: #f1f2f4;
+/*top,bottom,left,right*/
+padding: 50px 0px;
+}
+.footer-top h3{
+margin: 0px;
+padding: 0px;
+font-size: 20px;
+}
+.footer-top a{
+transition: 0.5s;
+font-size: 17px;
+color: #a19797;
+text-decoration: none;
+}
+.footer-top a:hover{
+color: black;
+}
+footer{
+background: #f7f7f7;
+/*top,bottom,left,right*/
+padding: 40px 0px;
+}
+.s-links h6{
+font-weight: normal;
+padding-top: 40px;
+}
+/*fontawesome apne toh ek class deta hai fab*/
+.s-links .fab{
+font-size: 25px;
+margin-right: 10px;
+color: black;
+}
+footer ul{
+margin: 0px;
+padding: 0px;
+margin-bottom: 30px;
+/*margin-bottom issliye usske niche ka part bhi banaunga*/
+}
+footer h4{
+font-size: 16px;
+letter-spacing: .8px;
+line-height: 120%;
+margin-bottom: 20px;
+}
+footer ul li{
+list-style: none;
+}
+
+footer ul li a{
+text-decoration: none;
+font-size: 14px;
+color: grey;
+line-height: 25px;
+}
+.bottom-section{
+border-top: 1px solid grey;
+padding-top: 40px;
+}
+.bottom-section a{
+text-decoration: none;
+color: grey;
+font-size: 14px;
+line-height: 25px;
+list-style: none;
+}
+.bottom-section ul {
+text-align: right;
+}
+.bottom-section ul li{
+display: inline-block;
+}
+.bottom-section ul select{
+border: none;
+}
